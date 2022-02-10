@@ -1,0 +1,21 @@
+.tab-menu {
+  display: flex;
+}
+.tab-menu-item {
+  text-align: center;
+  list-style: none;
+  width: 150px;
+  padding: 10px 0;
+  border: 2px solid lightgray;
+  font-size: 24px;
+}
+.tab-menu-item.active {
+  color: white;
+  background: black;
+}
+.tab-content-item {
+  font-size: 24px;
+}
+.tab-content-item.show {
+  position: static;
+}

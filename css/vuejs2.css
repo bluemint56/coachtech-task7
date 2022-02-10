@@ -1,0 +1,25 @@
+.modal-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+}
+.modal-content-inside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.modal-item-back {
+  background-color: white;
+  width: 40%;
+  padding: 50px;
+}
+.modal-item-txt {
+  text-align: center;
+}
+.modal-item-txt p {
+  padding-bottom: 20px;
+}
